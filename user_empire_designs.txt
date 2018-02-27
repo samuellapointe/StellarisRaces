@@ -1,0 +1,136 @@
+"Romulan Guardian Core"
+={
+	key="Romulan Guardian Core"
+	ship_prefix="ISS"
+	species={
+		class="MACHINE"
+		portrait="sd_avi_robot"
+		name="Guardian"
+		plural="Guardians"
+		adjective="Guardian"
+		name_list="HUMAN3"
+		trait="trait_machine_unit"
+		trait="trait_robot_emotion_emulators"
+		trait="trait_robot_custom_made"
+		trait="trait_robot_luxurious"
+		trait="trait_robot_efficient_processors"
+		trait="trait_robot_logic_engines"
+	}
+	secondary_species={
+		class="AVI"
+		portrait="avi6"
+		name="Estragon"
+		plural="Estragons"
+		adjective="Estragonese"
+		name_list="AVI4"
+		trait="trait_solitary"
+		trait="trait_natural_engineers"
+		trait="trait_intelligent"
+	}
+	name="Romulan Guardian Core"
+	adjective="Guardian"
+	authority="auth_machine_intelligence"
+	government="gov_machine_servitor"
+	advisor_voice_type="l_machine"
+	planet_name="Romulus Prime"
+	planet_class="pc_arctic"
+	system_name="Romulus"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_17.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"grey"
+			"dark_grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Gnaeus Opsius"
+		portrait="sd_avi_robot"
+		texture=3
+		hair=0
+		clothes=0
+		ruler_title="Archangel"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_slaving_despots_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_servitor"
+		"civic_machine_introspective"
+	}
+}
+"Shpongle Spores"
+={
+	key="Shpongle Spores"
+	ship_prefix="ISS"
+	species={
+		class="FUN"
+		portrait="fun3"
+		name="Shpongle Spores"
+		plural="Shpongle Spores"
+		adjective="Shpongolese"
+		name_list="FUN4"
+		trait="trait_hive_mind"
+		trait="trait_extremely_adaptive"
+		trait="trait_repugnant"
+		trait="trait_slow_breeders"
+	}
+	name="Shpongle Spores"
+	adjective="Shpongolese"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	planet_name="Shpongleland"
+	planet_class="pc_tropical"
+	system_name="Magumba"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_15.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"light_blue"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Schlugger"
+		portrait="fun3"
+		texture=4
+		hair=0
+		clothes=0
+		ruler_title="Shpongle Mind"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_harmonious_hierarchy_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_subsumed_will"
+		"civic_hive_ascetic"
+	}
+}
